@@ -1,0 +1,80 @@
+body {
+    font-family: Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: snow;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    padding: 5px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+p, li {
+    text-align: left;
+    color: dimgrey;
+}
+
+a {
+    display: block;
+    text-align: left;
+    padding-left: 35px;
+    color: rgb(0, 205, 193);
+}
+
+ul {
+    text-align: left;
+}
+
+h1 {
+    color: rgb(73, 72, 72);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(207, 210, 212);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(94, 92, 92);
+}
+
+li {
+    list-style: none;
+}
+
+#left-block {
+    background-color: rgba(0, 205, 191, 0.29);
+    border: 1px solid rgba(0, 205, 193, 20%);
+    border-radius: 0 700px 0 700px;
+    width: 300px;
+    height: 800px;
+    margin-top: 100px;
+    padding: 115px 20px 20px 20px;
+}
+/* #left-block a{
+    color:snow
+} */
+
+.coordonnees, .competences{
+    padding: 10px;
+    border-bottom: 2px solid snow
+}
+
+#right-block {
+    /* border-left: 2px solid dimgrey; */
+    margin-left: 60px;
+    padding: 30px;
+}
+.intro p{
+    text-align: center;
+}
+
+ .experiences, .formation {
+    padding: 10px;
+    border-bottom: 2px solid dimgrey;
+}
