@@ -1,0 +1,24 @@
+:root {
+    --bs-teal: #008080;
+}
+
+br {
+    margin-top: 1rem;
+}
+.bg-teal
+{
+    background-color: var(--bs-teal);
+}
+.btn-teal{
+    background-color: var(--bs-teal);
+    color: white;
+}
+.text-teal {
+    color: var(--bs-teal);
+}
+
+
+.card-img-top{
+    max-width: 300px;
+    max-height: 150px;
+}
