@@ -73,7 +73,7 @@
                 </div>
             </div>
         </section>
-        <section id="expertise" class="py-5 bg-light">
+        <section id="expertise" class="py-5 bg-light h-100">
             <div class="container">
                 <h2 class="mb-0">Mon expertise</h2>
                 <h3 class="fw-light fs-5">Développement web et design</h3>
@@ -289,7 +289,7 @@
                 </div>
             </div>
         </section>
-        <section id="portfolio" class="py-5">
+        <section id="portfolio" class="py-5 h-100">
             <div class="container">
                 <h2 class="mb-0">Mon Portfolio</h2>
                 <h3 class="fw-light fs-5">Mes Projets d'études</h3>
@@ -314,7 +314,7 @@
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="titreProjet6">Groupomania</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aia-label="Close"></button>
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <!-- carousel -->
@@ -417,7 +417,7 @@
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="titreProjet5">Hot Takes</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aia-label="Close"></button>
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <!-- carousel -->
@@ -456,17 +456,20 @@
                                                 <div class="carousel-caption d-none d-md-block bg-light text-dark">
                                                     <h5>Hot Takes, détail d'un produit.</h5>
                                                     <p>Ici l'utilisateur n'est pas celui qui a mis en ligne la sauce.
-                                                        <br> Il peut donc la liker et revenir à la galerie de sauces piquantes.
+                                                        <br> Il peut donc la liker et revenir à la galerie de sauces
+                                                        piquantes.
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item h-100">
                                                 <img src="./img/slides/projet5/Capture-produit2.png"
-                                                    class="d-block w-100" alt="image slide Hot Takes, détail produit, avec possibilité de modifier et suppression du produit.">
+                                                    class="d-block w-100"
+                                                    alt="image slide Hot Takes, détail produit, avec possibilité de modifier et suppression du produit.">
                                                 <div class="carousel-caption d-none d-md-block bg-light text-dark">
                                                     <h5>Hot Takes, détail d'un produit.</h5>
                                                     <p>Ici l'utilisateur est celui qui a mis en ligne la sauce. <br> Il
-                                                        peut donc la liker, mais également modifier ou supprimer la fiche produit, et enfin revenir à la galerie de sauces.
+                                                        peut donc la liker, mais également modifier ou supprimer la
+                                                        fiche produit, et enfin revenir à la galerie de sauces.
                                                     </p>
                                                 </div>
                                             </div>
@@ -474,15 +477,14 @@
                                                 <img src="./img/slides/projet5/Capture-produit-modif.png"
                                                     class="d-block w-100" alt="image slide Hot Takes, détail produit.">
                                                 <div class="carousel-caption d-none d-md-block bg-light text-dark">
-                                                    <h5>Hot Takes, formulaire de  modification d'une fiche produit.</h5>
-                                                    <p>Ici l'utilisateur ayant mis en ligne la sauce, peut en modifier les informations via un formulaire.
+                                                    <h5>Hot Takes, formulaire de modification d'une fiche produit.</h5>
+                                                    <p>Ici l'utilisateur ayant mis en ligne la sauce, peut en modifier
+                                                        les informations via un formulaire.
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -507,14 +509,34 @@
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="titreProjet4">Orinoco</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aia-label="Close"></button>
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <!-- carousel -->
-                                    <div id="carouselProjet4">
-
+                                    <div id="carouselProjet4" class="carousel slide shadow h-100"
+                                        data-bs-ride="carousel" data-bs-touch="true">
+                                        <div
+                                            class="carousel-inner h-100 d-flex align-items-center justify-content-center">
+                                            <h5>En chantier...</h5>
+                                            <!-- <div class="carousel-item h-100 active" data-bs-interval="1000">
+                                                <img src="./img/slides/projet4"
+                                                    class="d-block w-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                   <h5>Orinoco</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./img/slides/projet4" class="d-block w-100 h-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                    <h5>Orinoco</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div> -->
+                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -540,14 +562,34 @@
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="titreProjet3">La Chouette Agence</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aia-label="Close"></button>
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <!-- carousel -->
-                                    <div id="carouselProjet3">
-
+                                    <div id="carouselProjet3" class="carousel slide shadow h-100"
+                                        data-bs-ride="carousel" data-bs-touch="true">
+                                        <div
+                                            class=" container carousel-inner h-100 d-flex align-items-center justify-content-center">
+                                            <h5>En chantier...</h5>
+                                            <!-- <div class="carousel-item h-100 active" data-bs-interval="1000">
+                                                <img src="./img/slides/projet3"
+                                                    class="d-block w-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                   <h5>La Chouette agence,</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./img/slides/projet3" class="d-block w-100 h-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                    <h5>La Chouette agence,</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div> -->
+                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -573,14 +615,34 @@
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="titreProjet2">Oh My Food !</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aia-label="Close"></button>
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <!-- carousel -->
-                                    <div id="carouselProjet2">
-
+                                    <div id="carouselProjet2" class="carousel slide shadow h-100"
+                                        data-bs-ride="carousel" data-bs-touch="true">
+                                        <div
+                                            class=" container carousel-inner h-100 d-flex align-items-center justify-content-center">
+                                            <h5>En chantier...</h5>
+                                            <!-- <div class="carousel-item h-100 active" data-bs-interval="1000">
+                                                <img src="./img/slides/projet2"
+                                                    class="d-block w-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                   <h5>Oh My Food !,</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./img/slides/projet2" class="d-block w-100 h-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                    <h5>Oh My Food !,</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div> -->
+                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -606,19 +668,38 @@
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="titreProjet1">Reservia</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aia-label="Close"></button>
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <!-- carousel -->
-                                    <div id="carouselProjet1">
-
+                                    <div id="carouselProjet1" class="carousel slide shadow h-100"
+                                        data-bs-ride="carousel" data-bs-touch="true">
+                                        <div
+                                            class=" container carousel-inner h-100 d-flex align-items-center justify-content-center">
+                                            <h5>En chantier...</h5>
+                                            <!-- <div class="carousel-item h-100 active" data-bs-interval="1000">
+                                                <img src="./img/slides/projet1"
+                                                    class="d-block w-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                   <h5>Réservia,</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./img/slides/projet1" class="d-block w-100 h-100"
+                                                    alt="image slide.">
+                                                <div class="carousel-caption d-none d-md-block bg-light text-dark">
+                                                    <h5>Réservia,</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div> -->
+                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             </div>
@@ -638,7 +719,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer class="border-top">
