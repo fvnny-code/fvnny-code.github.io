@@ -18,6 +18,9 @@ br {
     color: var(--bs-teal);
 }
 
+a :hover {
+    color: gray;
+}
 
 .card-img-top{
     max-width: 300px;
