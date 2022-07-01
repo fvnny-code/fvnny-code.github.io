@@ -1,5 +1,6 @@
 :root {
     --bs-teal: #008080;
+    scroll-behavior: smooth;
 }
 
 br {
