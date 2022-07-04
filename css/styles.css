@@ -6,6 +6,7 @@
 br {
     margin-top: 1rem;
 }
+/* paramétrage couleur des composants */
 .bg-teal
 {
     background-color: var(--bs-teal);
@@ -22,7 +23,45 @@ a :hover {
     color: gray;
 }
 
+/* card */
 .card-img-top{
     max-width: 300px;
     max-height: 150px;
+}
+
+/* Footer : animation des icones */
+.button{
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(94, 91, 91);
+    float: left;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+.button:hover{
+    width: 10rem;
+}
+.button span{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-left: .8rem;
+}
+.button, .icon{
+    display: inline-block;
+    height: 3rem;
+    width:3rem;
+    text-align: center;
+    border-radius: 50px;
+}
+.button, .icon a{
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+.icon{
+    float: left;
+    font-size: 4rem;
 }
