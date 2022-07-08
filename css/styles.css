@@ -11,16 +11,24 @@ br {
 {
     background-color: var(--bs-teal);
 }
-.btn-teal{
+.btn-teal, .btn-outline{
     background-color: var(--bs-teal);
     color: white;
 }
+.btn-outline:hover{
+    background-color: white;
+    border: 2px solid var(--bs-teal);
+    color: var(--bs-teal);
+}
+
 .text-teal {
     color: var(--bs-teal);
 }
 
-a :hover {
+a:hover {
     color: gray;
+    transition: .3s;
+
 }
 
 /* card */
