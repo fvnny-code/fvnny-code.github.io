@@ -1,6 +1,7 @@
 :root {
     --bs-teal: #008080;
     scroll-behavior: smooth;
+
 }
 
 
@@ -63,11 +64,11 @@ form *{
 }
 
 .blob {
-    height: 10rem;
-    width: 10rem;
+    height: 7rem;
+    width: 7rem;
     position: absolute;
-    right: -4rem;
-    top: -5rem;
+    right: 0;
+    top: -2rem;
     background-color: var(--bs-teal);  
     opacity: .5;
     border-radius: 73% 27% 70% 30% / 32% 67% 33% 68%;
@@ -75,7 +76,7 @@ form *{
 
 /* Animation de paragraphe sous le formulaire */
 .slidein {
-    animation: 5s 3 slidein;
+    animation: 5s 1 slidein;
 }
 
 @keyframes slidein {
