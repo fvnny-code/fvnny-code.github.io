@@ -9,15 +9,15 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,14 +39,11 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#fvnnyCode">Qui suis-je ?</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#expertise">Expertises</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#expertise">CV</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -73,213 +70,26 @@
                         <h2 class="fw-light ">Bienvenue dans mon univers créatif</h2>
                         <a href="#expertise" class="btn btn-outline mt-5">Mon expertise web</a>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <img src="./img/portrait2.jpeg" alt="portrait de FvnnyCode " width="100%">
+                    <div class="col-12 col-md-6 ">
+                        <img src="./img/photoCV_compressed.jpg" alt="portrait de FvnnyCode " width="100%" class="m-5 rounded-circle">
                     </div>
                 </div>
             </div>
         </section>
-        <section id="expertise" class="py-5 bg-dark h-100">
-            <div class="container ">
+        <section id="expertise" class="p-4 bg-dark h-100 d-flex">
+            <div class="container">
                 <h2 class="mb-0 text-white">Mon expertise</h2>
                 <h3 class="fw-light fs-5 text-white">Développement web et design</h3>
                 <!-- progress bars -->
                 <!-- developpement -->
-                <div class="row gy-4 mt-4 align-items-center">
-
-                    <div class="col-12 col-md-7">
-                        <!-- HTML -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-html5 fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">HTML5</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-75 bg-teal" role="progressbar" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"> Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- CSS -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-css3 fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">CSS3</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-75 bg-teal" role="progressbar" style="width: 25%"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                         <!-- Sass -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-sass fa-2x me-3 text-teal"></i>
-                                            <p class="fw-bold m-0">Sass</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%" 
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                         <!-- Bootstrap -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-bootstrap fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">Bootstrap</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress ">
-                                         <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%"
-                                             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                         </div>
-                                    </div>
-                                </div>
-                             </div>
-                        </div>
-                        <!-- Javascript -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-js fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">Javascript</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 25%"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Vue Js -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-vuejs fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">VueJS</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%"
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- React Js -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-react fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">React</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%"
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Node Js -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <i class="fab fa-node-js fa-2x me-3 text-teal"></i>
-                                        <p class="fw-bold m-0">NodeJS</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%"
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- MySQL -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <img src="./img/icons/mysql_icon_.png" alt="icone MySQL" class="me-3">
-                                        <p class="fw-bold m-0">MySQL</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%"
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- MongoDB -->
-                        <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
-                            <div class="row align-items-center">
-                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
-                                    <div class="d-flex align-items-center">
-                                        <img src="./img/icons/mongoDB_icon_.png" alt="icone mongoDB" class="me-3">
-                                        <p class="fw-bold m-0">mongoDB</p>
-                                    </div>
-                                </div>
-                                <div class="col ms-5">
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 bg-teal" role="progressbar" style="width: 50%"
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Loading...
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 offset-md-1 col-md-4">
-                        <img src="./img/expertise/pexels-photo-coding3.jpeg" alt="écran montrant du code php"
-                            width="100%">
+                <div class="row gy-4 mt-4">
+                    <div class=" skills-container col-12 col-sm-10">
+                          <!-- progressBar.js -->
                     </div>
                 </div>
                 <!-- design -->
-                <div class="row gy-4 mt-5 align-items-center">
-                    <div class="col-12 col-md-4">
-                        <img src="./img/expertise/design.jpg" alt="écran montrant des designs" width="100%">
-                    </div>
-                    <div class="col-12 offset-md-1 col-md-7">
+                <div class="row gy-4 mt-4">
+                    <div class="col-12 col-sm-10">
                         <!-- Figma -->
                         <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
                             <div class="row align-items-center">
@@ -318,7 +128,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Adobe Photoshop -->
                         <div class="mb-1 p-1 bg-white shadow-sm p-2 mb-3 bg-body rounded">
                             <div class="row align-items-center">
@@ -358,10 +167,86 @@
                         </div>
                     </div>
                 </div>
-                <!-- / progress bars -->
             </div>
+                <!-- / progress bars -->
+            <div class="container ">  
+                <div class="row gy-4 mt-4">
+                        <h2 class="mb-0 text-white">Mes expériences et projets</h2>
+                        <div class="col-12 col-12 col-md-11">
+                            <h3 class="fw-light fs-5 text-white">DÉVELOPPEUSE FULLSTACK AGILE</h3> 
+                            <p class="text-white"><span class="text-teal">Société Générale</span> - La Défense - De septembre 2023 à Novembre 2024</p>
+                            <p class="text-white">Dans un contexte de travail Agile Scrum, participation à la mise en œuvre de solutions techniques adaptées aux besoins d'utilisateurs internes, dans la gestion des risques opérationnels :</p>
+                            <ul class="text-white"><b>Développement et maintenance évolutive et corrective de la base de code :</b>
+                               <li class="text-white">Implémentation de nouvelles fonctionnalités et composants <b>(React /Java, PostgreSQL)</b></li>
+                                <li class="text-white">Refactoring de composants <b>React</b> de .jsx à .tsx</li>
+                                <li class="text-white">Encodage et sauvegarde de données utilisateurs (Java)</li>
+                                <li class="text-white">Suppression de code smells côté front-end et back-end (React / Java )</li>
+                                <li class="text-white">Tests unitaires pour chaque fonctionnalité (Jest côté front-end / Junit côté back-end)</li>
+                                <li class="text-white">Tests automatisés (Jenkins, SonarQube)</li>
+                            </ul>
+                            <ul><b>Participation aux déploiements bi-mensuels( sprints) et mises en production (GitHub)</b></ul>
+                        </div>
+                        <div class="col-12 col-12 col-md-11">                                    
+                            <h3 class="fw-light fs-5 text-white">DÉVELOPPEUSE WEB (projet front-end)</h3> 
+                             <p class="text-white"><span class="text-teal">ARGENTBANK (fictive)</span> - remote - De juillet 2023 à Août 2023</p>
+                            <p class="text-white">Mise en place de fonctionnalités sur une application bancaire :</p>
+                             <ul>
+                               <li class="text-white">Gestion des données externes avec utilisation d'une API :
+                                            Système d'authentification pour se connecter et gérer des comptes et un profil utilisateur <b>(React)</b></li>
+                                <li class="text-white">Modélisation des transactions (Swagger au format yaml)</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-12 col-md-11">                                    
+                            <h3 class="fw-light fs-5 text-white">DÉVELOPPEUSE FRONT-END</h3> 
+                            <p class="text-white"><span class="text-teal">SurfMetrics</span> - Paris - De décembre 2022 à Mai 2023</p>
+                            <p class="text-white">Dans un contexte de travail Agile Conception d'un tableau de bord de données d'analyse d'e-réputation de portefeuilles d'entreprises, en Javascript React.</p>
+                        </div>
+                        <div class="col-12 col-12 col-md-11">                                    
+                            <h3 class="fw-light fs-5 text-white">DÉVELOPPEUSE WEB (projet fullstack)</h3> 
+                            <p class="text-white"><span class="text-teal">Groupomania</span> - Remote - De Janvier 2022 à Juin 2022</p>
+                            <p class="text-white">Conception d’un réseau social d’entreprise :</p>
+                            <ul class="text-white">
+                                <li class="text-white">Conception d’une maquette d’interface (Adobe Xd)</li>
+                                <li class="text-white">Création de la base de données avec MySQL</li>
+                                <li class="text-white">Implémentation du back-end (Node.js, requêtes SQL)</li>
+                                <li class="text-white">Implémentation du front-end (Vue.js)</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-12 col-md-11">                                    
+                            <h3 class="fw-light fs-5 text-white">WEBDESIGNER / COMMUNITY MANAGER (stage)</h3> 
+                            <p class="text-white"><span class="text-teal">NeoLeasy</span> - Nanterre - De Octobre 2020 à Novembre 2020</p>
+                            <p class="text-white">Créations web et print :</p>
+                            <ul class="text-white">
+                                <li class="text-white">Interfaces web et mobile</li>
+                                <li class="text-white">Chartes graphiques</li>
+                                <li class="text-white">Contenus pour différents canaux de communication (emailing, publications Linkedin)</li>
+                                <li class="text-white">Flyers</li>
+                                <li class="text-white">Pochettes de contrats</li>
+                            </ul>
+                        </div>
+                </div>    
+                <div class="row gy-4 mt-4 ">
+                        <h2 class="mb-0 text-white">Mes Diplômes et formations</h2>
+                        <div class="col-12 col-12 col-md-12">                                    
+                            <h3 class="fw-light fs-5 text-white">DÉVELOPPEUR D'APPLICATIONS JAVASCRIPT REACT titre RNCP niveau 6</h3> 
+                            <p class="text-white"><span class="text-teal">Openclassrooms</span> - Paris - De Décembre 2022 à Novembre 2024</p>
+                        </div>
+                        <div class="col-12 col-12 col-md-12">                                    
+                            <h3 class="fw-light fs-5 text-white">DÉVELOPPEUR WEB titre RNCP niveau 5</h3> 
+                            <p class="text-white"><span class="text-teal">Openclassrooms</span> - Paris - De Mai 2021 à Juillet 2022</p>
+                        </div>
+                        <div class="col-12 col-12 col-md-12">                                   
+                            <h3 class="fw-light fs-5 text-white">WEB DESIGNER titre RNCP niveau 5</h3> 
+                            <p class="text-white"><span class="text-teal">Doranco</span> - Paris - De Juin 2020 à Décembre 2020</p>
+                        </div>
+                        <div class="col-12 col-12 col-md-12">                                    
+                            <h3 class="fw-light fs-5 text-white">ET ACCESSOIREMENT...</h3> 
+                            <p class="text-white">Maîtrise de Lettres et Civilisation Russes, violoncelliste à cheveux longs, tatoueuse, et bien plus ...</p>
+                        </div>        
+                </div>
+            </div>    
         </section>
-        <section id="portfolio" class="py-5 h-100 bg-dark">
+        <section id="portfolio" class="p-5 h-100 bg-dark">
             <div class="container">
                 <h2 class="mb-0 text-white">Mon Portfolio</h2>
                 <h3 class="fw-light fs-5 text-white">Mes Projets</h3>
@@ -843,7 +728,7 @@
                 </div>
 
         </section>
-        <section id="contact" class="py-5 bg-dark">
+        <!-- <section id="contact" class="py-5 bg-dark">
             <div class="container">
                 <h2 class="mb-0 text-white">Un projet de création web ?</h2>
                 <h3 class="fw-light fs-5 text-white">Discutons-en autour d'un café</h3>
@@ -853,9 +738,9 @@
                         <img src="./img/grab-a-coffee.jpg" alt="Image d'une tasse de café" width="100%">
                     </div>
                     <div class="col-12 offset-md-1 col-md-6" id="form__container">
-                        <div class="blob"></div>
+                        <div class="blob"></div> -->
                         <!-- Formulaire de contact -->
-                        <form class="row">
+                        <!-- <form class="row">
                             <div class="col-6 my-2">
                                 <label for="firstname" class="form-label text-white">Prénom </label>
                                 <input name="firstname" type="text" class="form-control" id="firstname" disabled>
@@ -887,10 +772,10 @@
                             d'exemple, pour me faire mousser avec style. Pour me contacter, privillégiez le lien
                             linkedin ci-dessous :) <span class="bi bi-arrow-down-circle fs-4"></span></p>
 
-                    </div>
-                </div>
+                    </div> -->
+                <!-- </div>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <footer class="border-top">
@@ -927,11 +812,12 @@
             </div>
 
         </div>
-        <!-- Script js -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-        <script src="./js/script.js"></script>
+       
     </footer>
-
+ <!-- Script js -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+ crossorigin="anonymous"></script>
+<script type="module" src="js/script.js"></script>
 </body>
+</html>
