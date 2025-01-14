@@ -1,17 +1,26 @@
 export function createProgressBar(skill) {
-    // Vérification que l'objet skill est bien défini
-    if (!skill || !skill.name || !skill.percentage || !skill.icon) {
-        throw new Error(`Invalid skill object: ${JSON.stringify(skill)}`);
-    }
+  // Vérification que l'objet skill est bien défini
+  if (!skill || !skill.name || !skill.percentage || !skill.icon) {
+    throw new Error(`Invalid skill object: ${JSON.stringify(skill)}`);
+  }
 
-    const { name, percentage, icon } = skill;
+  const { name, percentage, icon } = skill;
 
-    // Création du conteneur principal
-    const progressBarContainer = document.createElement('div');
-    progressBarContainer.classList.add('mb-1', 'p-1', 'bg-white', 'shadow-sm', 'p-2', 'mb-3', 'bg-body', 'rounded');
+  // Création du conteneur principal
+  const progressBarContainer = document.createElement("div");
+  progressBarContainer.classList.add(
+    "mb-1",
+    "p-1",
+    "bg-white",
+    "shadow-sm",
+    "p-2",
+    "mb-3",
+    "bg-body",
+    "rounded"
+  );
 
-    // Ajout du contenu HTML
-    progressBarContainer.innerHTML = `
+  // Ajout du contenu HTML
+  progressBarContainer.innerHTML = `
         <div class="row align-items-center">
             <div class="col-5 col-sm-4 col-md-3 col-xl-2">
                 <div class="d-flex align-items-center">
@@ -29,5 +38,5 @@ export function createProgressBar(skill) {
         </div>
     `;
 
-    return progressBarContainer;
+  return progressBarContainer;
 }
