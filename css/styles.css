@@ -42,7 +42,12 @@ a:hover {
 
 /* presentation */
 
-
+.separator {
+    margin: 2rem 0;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+  }
+  
 
 /* card */
 .card-img-top {
