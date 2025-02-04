@@ -122,3 +122,23 @@ export function createProjectModal(project) {
 
   return modalContainer;
 }
+// Gestion du focus et accessibilité des modales
+document.addEventListener("DOMContentLoaded", function () {
+  const modals = document.querySelectorAll(".modal");
+
+  modals.forEach((modal) => {
+      modal.addEventListener("hidden.bs.modal", function () {
+          // Désactive l'interaction avec la modale fermée
+          modal.setAttribute("inert", "true");
+
+          // Récupère le bouton qui a ouvert la modale
+          const triggerButton = document.querySelector(`[data-bs-target="#${modal.id}"]`);
+          if (triggerButton) triggerButton.focus();
+      });
+
+      modal.addEventListener("shown.bs.modal", function () {
+          // Réactive l'interaction avec la modale ouverte
+          modal.removeAttribute("inert");
+      });
+  });
+});
