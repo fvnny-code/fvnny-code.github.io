@@ -25,12 +25,18 @@ export function createExperienceCard(experience) {
   export function createFormationCard(formation) {
     const formationContainer = document.createElement("div");
     formationContainer.classList.add("col-12", "col-md-12");
-  
+
+    // Vérification si les données existent pour éviter les "undefined"
+    const schoolInfo = formation.school ? `<span class="text-teal">${formation.school}</span>` : "";
+    const locationInfo = formation.location ? ` - ${formation.location}` : "";
+    const periodInfo = formation.period ? ` - ${formation.period}` : "";
+    const formationDetails = schoolInfo || locationInfo || periodInfo ? `<p class="text-white">${schoolInfo}${locationInfo}${periodInfo}</p>` : "";
+
     formationContainer.innerHTML = `
-          <h3 class="fw-light fs-5 text-white">${formation.title} ${formation.level ? `(${formation.level})` : ""}</h3>
-          <p class="text-white"><span class="text-teal">${formation.school}</span> - ${formation.location} - ${formation.period}</p>
-          ${formation.description ? `<p class="text-white">${formation.description}</p>` : ""}
-      `;
-  
+        <h3 class="fw-light fs-5 text-white">${formation.title} ${formation.level ? `(${formation.level})` : ""}</h3>
+        ${formationDetails}
+        ${formation.description ? `<p class="text-white">${formation.description}</p>` : ""}
+    `;
+
     return formationContainer;
-  }
+}
