@@ -8,13 +8,15 @@ export const experiences = [
         "Dans un contexte de travail Agile Scrum, participation à la mise en œuvre de solutions techniques adaptées aux besoins d'utilisateurs internes, dans la gestion des risques opérationnels :",
       tasks: [
         "Implémentation de nouvelles fonctionnalités et composants (React / Java, PostgreSQL)",
-        "Refactoring de composants React de classe à fonctionnels",
+        "Optimisation du code développé pour en assurer la qualité et faciliter sa maintenance, à travers des « code review »",
         "Gestion des données utilisateur (Créer, Ajouter, Modifier) (Java)",
-        "Réduction et correction de la complexité du code dans les rapports Sonar",
+        "Utilisation des outils de qualimétrie (Sonar)",
         "Tests unitaires pour chaque fonctionnalité (Jest côté front-end / Junit côté back-end)",
         "Déploiement des livraisons avec des pipelines Jenkins",
       ],
-      extra: "Participation aux déploiements bi-mensuels (sprints) et mises en production (GitHub).",
+      extra: [
+        "Participation aux pratiques agiles de l’équipe au quotidien : Daily, Démos, Retro, Planning Poker, Sprints etc.",
+      ]
     },
     {
       title: "DÉVELOPPEUSE WEB (projet front-end)",
