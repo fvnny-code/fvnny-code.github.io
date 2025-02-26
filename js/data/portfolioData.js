@@ -1,5 +1,27 @@
 export const portfolioData = [
   {
+    title: "SnapFace",
+    media: "./img/videos/SnapFace.mov",
+    type: "video",
+    description:
+      "Création d'une mini application pour snap des photos partagées sur un réseau social.",
+    hashtags: ["#Angular", "#HTML5", "#Sass"],
+    githubLink: "https://github.com/fvnny-code/snapface",
+    modalContent: {
+      steps: [
+        "Consturction de l'application avec Angular CLI",
+        "Création des composants",
+        "Ajout de style dynamique avec Sass",
+        "Formatage des données avec les pipes",
+        "Amélioration de la structure globlae avec les services et le routing",
+      ],
+      technologies: [
+        { name: "HTML5", icon: "fa-html5" },
+        { name: "Saas", icon: "fa-sass" },
+        { name: "Angular", icon: "fa-angular" },
+      ],
+    },
+  },{
     title: "FishEye",
     media: "./img/slides/projetFishEye/accueil.png",
     type: "image",
