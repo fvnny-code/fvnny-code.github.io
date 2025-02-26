@@ -1,7 +1,7 @@
 export const portfolioData = [
   {
     title: "SnapFace",
-    media: "./img/videos/SnapFace.mov",
+    media: "./img/videos/snapface.mov",
     type: "video",
     description:
       "Création d'une mini application pour snap des photos partagées sur un réseau social.",
