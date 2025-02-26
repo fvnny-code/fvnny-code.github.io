@@ -5,7 +5,7 @@ export const skills = [
   { name: "JavaScript", percentage: 75, icon: "fa-brands fa-js-square" },
   { name: "React", percentage: 75, icon: "fa-brands fa-react" },
   { name: "Java", percentage: 25, icon: "fa-brands fa-java" },
-  { name: "angular", percentage: 25, icon: "fa-brands fa-angular" },
+  { name: "Angular", percentage: 25, icon: "fa-brands fa-angular" },
   { name: "MongoDB", percentage: 75, image: "./img/icons/mongoDB_icon_.png" },
   { name: "PostgreSQL", percentage: 25, image: "./img/icons/Postgresql-icon-vector-02.svg" },
   { name: "Jenkins", percentage: 25, icon:"fa-brands fa-jenkins" },
