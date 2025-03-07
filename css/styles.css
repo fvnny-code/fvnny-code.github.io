@@ -1,5 +1,6 @@
 :root {
-    --bs-teal: #008080;
+    --bs-teal: #00ADB5;
+    --bs-bright-turquoise: #00FFF5;
     scroll-behavior: smooth;
 
 }
@@ -31,6 +32,9 @@ br {
 
 .text-teal {
     color: var(--bs-teal);
+}
+.text-bright-turquoise{
+    color: var(--bs-bright-turquoise)
 }
 
 a:hover {

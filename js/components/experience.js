@@ -13,7 +13,7 @@ export function createExperienceCard(experience) {
   
     experienceContainer.innerHTML = `
           <h3 class="fw-light fs-5 text-white">${experience.title}</h3>
-          <p class="text-white"><span class="text-teal">${experience.company}</span> - ${experience.location} - ${experience.period}</p>
+          <p class="text-white"><span class="text-bright-turquoise">${experience.company}</span> - ${experience.location} - ${experience.period}</p>
           <p class="text-white">${experience.description}</p>
           ${tasksHTML}
           ${experience.extra ? `<p class="text-white">${experience.extra}</p>` : ""}
@@ -27,7 +27,7 @@ export function createExperienceCard(experience) {
     formationContainer.classList.add("col-12", "col-md-12");
 
     // Vérification si les données existent pour éviter les "undefined"
-    const schoolInfo = formation.school ? `<span class="text-teal">${formation.school}</span>` : "";
+    const schoolInfo = formation.school ? `<span class="text-bright-turquoise">${formation.school}</span>` : "";
     const locationInfo = formation.location ? ` - ${formation.location}` : "";
     const periodInfo = formation.period ? ` - ${formation.period}` : "";
     const formationDetails = schoolInfo || locationInfo || periodInfo ? `<p class="text-white">${schoolInfo}${locationInfo}${periodInfo}</p>` : "";
